@@ -30,7 +30,7 @@ export const add = (character) => {
 }
 
 export const getAll = () => {
-    return fetch('http://localhost:1337/characters').then((response) => {
+    return fetch('#').then((response) => {
         if(response.statusText === 'OK') {
             return response.json();
         }
